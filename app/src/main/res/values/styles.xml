@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.ShadowEnglish.ScreenTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/shadow_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.ShadowEnglish.ScreenTitle.Bold" parent="TextAppearance.ShadowEnglish.ScreenTitle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.ShadowEnglish.LessonTitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/shadow_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.ShadowEnglish.PracticeSentence" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/shadow_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.ShadowEnglish.Vietsub" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/shadow_text_secondary</item>
+    </style>
+
+    <style name="TextAppearance.ShadowEnglish.Body" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/shadow_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.ShadowEnglish.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/shadow_text_secondary</item>
+    </style>
+
+    <style name="Widget.ShadowEnglish.PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/shadow_primary</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Widget.ShadowEnglish.SecondaryButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/shadow_surface</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="strokeColor">@color/shadow_sentence_highlight</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/shadow_primary</item>
+    </style>
+</resources>

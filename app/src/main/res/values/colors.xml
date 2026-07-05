@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="shadow_primary">#0079C9</color>
+    <color name="shadow_primary_dark">#005C9A</color>
+    <color name="shadow_background">#F4F9FC</color>
+    <color name="shadow_surface">#FFFFFF</color>
+    <color name="shadow_text_primary">#0A1D2D</color>
+    <color name="shadow_text_secondary">#536B7E</color>
+    <color name="shadow_success">#16A34A</color>
+    <color name="shadow_sentence_highlight">#E1F0FA</color>
 </resources>

@@ -1,0 +1,26 @@
+{
+  "topics": [
+    { "id": 1, "name": "Motivation", "nameVi": "Động lực", "iconRes": "ic_topic_motivation", "orderIndex": 0, "colorHex": "#0079C9" },
+    { "id": 2, "name": "Discipline", "nameVi": "Kỷ luật", "iconRes": "ic_topic_discipline", "orderIndex": 1, "colorHex": "#16A34A" }
+  ],
+
+  "lessons": [
+    { "id": 1, "topicId": 1, "title": "Start Where You Are", "titleVi": "Bắt đầu từ nơi bạn đang đứng", "orderIndex": 0, "difficultyLevel": 1, "sentenceCount": 3 },
+    { "id": 2, "topicId": 2, "title": "Small Steps Every Day", "titleVi": "Từng bước nhỏ mỗi ngày", "orderIndex": 0, "difficultyLevel": 1, "sentenceCount": 3 },
+    { "id": 3, "topicId": 1, "title": "Believe In Yourself", "titleVi": "Tin vào chính mình", "orderIndex": 1, "difficultyLevel": 1, "sentenceCount": 3 }
+  ],
+
+  "lesson_sentences": [
+    { "id": 1, "lessonId": 1, "orderIndex": 0, "textEn": "Every journey begins with a single step.", "textVi": "Mỗi hành trình đều bắt đầu bằng một bước chân." },
+    { "id": 2, "lessonId": 1, "orderIndex": 1, "textEn": "You don't have to be great to start, but you have to start to be great.", "textVi": "Bạn không cần giỏi để bắt đầu, nhưng phải bắt đầu để trở nên giỏi." },
+    { "id": 3, "lessonId": 1, "orderIndex": 2, "textEn": "Progress is progress, no matter how small.", "textVi": "Tiến bộ vẫn là tiến bộ, dù nhỏ đến đâu." },
+
+    { "id": 4, "lessonId": 2, "orderIndex": 0, "textEn": "Discipline is choosing between what you want now and what you want most.", "textVi": "Kỷ luật là chọn giữa điều bạn muốn bây giờ và điều bạn muốn nhất." },
+    { "id": 5, "lessonId": 2, "orderIndex": 1, "textEn": "Small habits make a big difference over time.", "textVi": "Những thói quen nhỏ tạo nên sự khác biệt lớn theo thời gian." },
+    { "id": 6, "lessonId": 2, "orderIndex": 2, "textEn": "Show up every day, even when you don't feel like it.", "textVi": "Hãy xuất hiện mỗi ngày, kể cả khi bạn không muốn." },
+
+    { "id": 7, "lessonId": 3, "orderIndex": 0, "textEn": "Believe you can and you're halfway there.", "textVi": "Tin rằng bạn có thể, và bạn đã đi được nửa chặng đường." },
+    { "id": 8, "lessonId": 3, "orderIndex": 1, "textEn": "Your only limit is your mind.", "textVi": "Giới hạn duy nhất của bạn chính là tâm trí bạn." },
+    { "id": 9, "lessonId": 3, "orderIndex": 2, "textEn": "Stop doubting yourself and start trusting yourself.", "textVi": "Đừng nghi ngờ bản thân nữa, hãy bắt đầu tin tưởng chính mình." }
+  ]
+}

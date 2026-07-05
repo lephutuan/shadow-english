@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/topicListFragment">
+
+    <fragment
+        android:id="@+id/topicListFragment"
+        android:name="com.tuan.shadowenglish.ui.topiclist.TopicListFragment"
+        android:label="TopicListFragment">
+        <action
+            android:id="@+id/action_topicListFragment_to_lessonListFragment"
+            app:destination="@id/lessonListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lessonListFragment"
+        android:name="com.tuan.shadowenglish.ui.lessonlist.LessonListFragment"
+        android:label="LessonListFragment">
+        <argument
+            android:name="topicId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_lessonListFragment_to_practiceFragment"
+            app:destination="@id/practiceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.tuan.shadowenglish.ui.practice.PracticeFragment"
+        android:label="PracticeFragment">
+        <argument
+            android:name="lessonId"
+            app:argType="long" />
+    </fragment>
+</navigation>
